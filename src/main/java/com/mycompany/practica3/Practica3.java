@@ -14,8 +14,9 @@ public class Practica3 {
 
     public static void main(String[] args) {
         
-        int base;
-        int altura;
+        float base;
+        float altura;
+        float area;
         String nombre;
       
         
@@ -28,11 +29,11 @@ public class Practica3 {
          System.out.println(" Bienvenid@ "+ nombre );
          System.out.println(" Este es un programa que calcula el area de un triangulo segun los datos ingresados  ");
          System.out.println("Ingrese datos de la base del triangulo : ");
-          base = leer.nextInt();
+          base = leer.nextFloat();
           System.out.println("Ingrese datos de Altura del triangulo : ");
-          altura = leer.nextInt();
+          altura = leer.nextFloat();
          
-          double area = (base * altura ) / 2;
+          area = base * altura / 2;
           System.out.println("El area del Triangulo es : " + area);
           
          
